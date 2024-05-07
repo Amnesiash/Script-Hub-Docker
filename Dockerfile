@@ -25,8 +25,6 @@ RUN pnpm i
 # 设置环境变量
 ENV HOST=0.0.0.0 \
     PORT=9100 \
-    TEST_PORT=9101 \
-    TEST_BASE_URL=https://scripthub-lp861i47.b4a.run:9101 \
     BASE_URL=https://scripthub-lp861i47.b4a.run
 
 # 暴露端口
