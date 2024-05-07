@@ -28,7 +28,7 @@ ENV HOST=0.0.0.0 \
     BASE_URL=https://scripthub-lp861i47.b4a.run/
 
 # 暴露端口
-EXPOSE 9100 9101
+EXPOSE 9100
 
 # 使用pm2启动应用
 CMD ["pm2-runtime", "start", "pnpm", "--name", "ScriptHub", "--", "service"]
