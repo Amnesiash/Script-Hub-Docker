@@ -24,12 +24,12 @@ RUN pnpm i
 
 # 设置环境变量
 ENV HOST=0.0.0.0 \
-    PORT=9100 \
+    PORT=54088 \
     BASE_URL=https://pre_jingyu.ywjasolar.com
     # //https://scripthub-lp861i47.b4a.run
 
 # 暴露端口
-EXPOSE 9100
+EXPOSE 9100 54088
 
 # 使用pm2启动应用
 CMD ["pm2-runtime", "start", "pnpm", "--name", "ScriptHub", "--", "service"]
