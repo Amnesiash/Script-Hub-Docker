@@ -25,7 +25,8 @@ RUN pnpm i
 # 设置环境变量
 ENV HOST=0.0.0.0 \
     PORT=9100 \
-    BASE_URL=https://scripthub-lp861i47.b4a.run
+    BASE_URL=https://pre_jingyu.ywjasolar.com
+    # //https://scripthub-lp861i47.b4a.run
 
 # 暴露端口
 EXPOSE 9100
